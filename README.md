@@ -1,1 +1,1 @@
-# dynvae
+# Continious time VAE
