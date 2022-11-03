@@ -42,10 +42,6 @@ class GHMCSampler(_BaseSampler):
     """
     Generalized Hybrid Monte-Carlo sampler [Horowitz (1991)]
     See Algorithm 2.11 in 'Free energy computations - a mathematical perspective' by Lelievre, Rousset, and Stoltz
-
-    NB uses the formulation of underdamped Langevin dynamics
-    in terms of location and *momentum* as opposed to ctvae,
-    which uses the formulation in terms of location and *velocity*
     """
 
     def __init__(self,
