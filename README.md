@@ -8,3 +8,5 @@ To create and train new models from settings files, create settings files in ./s
 For analysing the results it is helpful to use exp_gui.py. To automatically have this perform relevant computations (like encoding the training data) for all models, run it with --loop_through=True
 
 Further tools for analysing the energy landscape can be found in ./utils/experiment_analysis.py and ./energy_tools.py
+
+The data can be found on https://ufile.io/w8fuhfxx (for 30 days, we'll provide a new link afterwards). 
